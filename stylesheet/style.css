@@ -1,0 +1,77 @@
+html, body{
+  height: 100%;
+}
+html{
+  display: table;
+  margin: auto;
+}
+body{
+  display: table-cell;
+  vertical-align: middle;
+}
+.cub1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation: cub1 2s linear infinite;
+  position: relative;
+}
+@keyframes cub1 {
+0% {background-color: red;}
+50% {background-color: yellow;}
+100% {background-color: red;}
+}
+.cub2 {
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation: cub2 2s linear infinite;
+  position: relative;
+}
+@keyframes cub2 {
+  0%   {background-color: red;}
+ 25%  {background-color: yellow;}
+ 50%  {background-color: blue;}
+ 100% {background-color: green;}
+}
+.cub3 {
+ width: 100px;
+ height: 100px;
+ background-color: red;
+ position: relative;
+ animation: cub3 2s linear infinite;
+}
+@keyframes cub3 {
+ 0%   {background-color:red; left:-400px; top:-100px;}
+ 25%  {background-color:yellow; left:-200px; top:-100px;}
+ 50%  {background-color:blue; left:0px; top:100px;}
+ 75%  {background-color:green; left:-200px; top:100px;}
+ 100% {background-color:red; left:-400px; top:-100px;}
+}
+.cub4 {
+  width: 100px;
+height: 100px;
+background-color: red;
+position: relative;
+animation: cub3 1s linear infinite;
+}
+@keyframes cub4 {
+0%   {background-color:red; left:0px; top:0px;}
+25%  {background-color:yellow; left:200px; top:0px;}
+50%  {background-color:blue; left:200px; top:200px;}
+75%  {background-color:green; left:0px; top:200px;}
+100% {background-color:red; left:0px; top:0px;}
+}
+.cub5 {
+width: 100px;
+height: 100px;
+background-color: red;
+position: relative;
+animation: cub5 1s linear infinite;
+}
+@keyframes cub5 {
+0% {opacity: 0%}
+50% {opacity: 50%}
+100% {opacity: 100%}
+}
